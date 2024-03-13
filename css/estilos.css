@@ -1,0 +1,78 @@
+body, html {
+        margin-top: 10px;
+        border: 10px;
+        padding: -30px;
+        height: 60%;
+        flex-wrap: row;
+    }
+    
+    .container {
+        position:absolute;
+        background-color: #E8B34B;
+        padding: 10px;
+        display: flex;
+        height: 90%; 
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .caja {
+        flex: 1; 
+        background-color: black; 
+        border: 3px solid white; 
+    }
+    .cajamed {
+        flex-grow: 4; 
+        background-color: black; 
+        border: 3px solid white; 
+    }
+    .cajaizq {
+        flex-grow: 2; 
+        background-color: black; 
+        border: 3px solid white; 
+    }
+    .cajader {
+        flex-grow: 1; 
+        background-color: black; 
+        border: 3px solid white; 
+    }
+    .caja1
+    {
+        margin-top: 10px;
+        padding: auto;
+        width: 130px; 
+        height: 120px; 
+        background-color: yellow;
+        display: inline-block 
+    }
+    #cajadent1{     
+        margin-top: 10px;
+        padding: 20px;
+        width: 250px; 
+        height: 270px; 
+        background-color: yellow;
+        display: inline-block }
+    #caja3{
+        margin-top: 10px;
+        padding: 20px;
+        width: 150px; 
+        height: 170px; 
+        background-color: yellow;
+        display: inline-block 
+    }
+    #cajasola{
+        margin-top: 10px;
+        padding: 20px;
+        width: 600px; 
+        height: 170px; 
+        background-color: yellow;
+        display: inline-block 
+    }
+    #caja2
+    {
+        background-color: #E8B34B;
+        width: 600px;
+        height: 100px;
+        margin-bottom: 5px; 
+        justify-content: center;
+    }
